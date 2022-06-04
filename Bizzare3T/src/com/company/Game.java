@@ -17,6 +17,15 @@ public class Game {
     static int player_checker = 1;
     static int piece = 1;
     static boolean choice_check = false;
+    static String player1, player2;
+
+    public static void setPlayer1(String player1) {
+        Game.player1 = player1;
+    }
+
+    public static void setPlayer2(String player2) {
+        Game.player2 = player2;
+    }
 
     public static void game() {
         //Outputs default board
@@ -38,7 +47,7 @@ public class Game {
 
         while (choice_check == false) {
             //Ask player which cube want to choose
-            System.out.println("Player 1, where would You like place Your piece?\n");
+            System.out.println(player1 + ", where would You like place Your piece?\n");
 
             //player's choice
             piece = in.nextInt();
@@ -47,7 +56,10 @@ public class Game {
                 //Add choice to the game's array
                 game[piece - 1] = "X";
                 choice_check = true;
-                win_checker();
+                if (win_checker() == true){
+                    System.out.println(player1 +" have won!");
+                    System.exit(0);
+                }
             } else System.out.println("You cannot add piece here!");
         }
         //output game's board
@@ -59,7 +71,7 @@ public class Game {
 
         while (choice_check == false) {
             //Ask player which cube want to choose
-            System.out.println("Player 2, where would You like place Your piece?\n");
+            System.out.println(player2 + ", where would You like place Your piece?\n");
 
             //player's choice
             piece = in.nextInt();
@@ -68,14 +80,17 @@ public class Game {
                 //Add choice to the game's array
                 game[piece - 1] = "O";
                 choice_check = true;
-                win_checker();
+                if (win_checker() == true){
+                    System.out.println(player2 +" have won!");
+                    System.exit(0);
+                }
             } else System.out.println("You cannot add piece here!");
         }
         //output game's board
         output.game_output(game);
     }
 
-    public static void win_checker() {
+    public static boolean win_checker() {
         if ((game[0] == game[1] && game[1] == game[2] && (game[0] != "-" && game[1] != "-" && game[2] != "-")) ||
                 (game[3] == game[4] && game[4] == game[5] && (game[3] != "-" && game[4] != "-" && game[5] != "-")) ||
                 (game[6] == game[7] && game[7] == game[8] && (game[6] != "-" && game[7] != "-" && game[8] != "-")) ||
@@ -84,9 +99,9 @@ public class Game {
                 (game[2] == game[5] && game[5] == game[8] && (game[2] != "-" && game[5] != "-" && game[8] != "-")) ||
                 (game[0] == game[4] && game[4] == game[8] && (game[0] != "-" && game[4] != "-" && game[8] != "-")) ||
                 (game[2] == game[4] && game[4] == game[6] && (game[2] != "-" && game[4] != "-" && game[6] != "-"))) {
-            System.out.println("You've won!");
             output.game_output(game);
-            System.exit(0);
+            return true;
         }
+        return false;
     }
 }
