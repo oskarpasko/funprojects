@@ -1,10 +1,12 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
 
     //function to write TicTacToe's board
-    static void game_output(String array []){
+    static void game_output(String array[]) {
         System.out.println(" " + array[0] + " " + " | " + " " + array[1] + " " + " | " + " " + array[2]);
         System.out.println("----|-----|----");
         System.out.println(" " + array[3] + " " + " | " + " " + array[4] + " " + " | " + " " + array[5]);
@@ -27,16 +29,46 @@ public class Main {
         System.out.println(" 7 " + " | " + " 8 " + " | " + " 9 ");
         System.out.println("\n");
 
-        boolean endgame = false;
-        //String[][] game = new String[3][3];
+        //Array which is sending to game_output()
+        String[] game = {"-", "-", "-",
+                "-", "-", "-",
+                "-", "-", "-"};
 
-        String[][] test = {{"X", "X", "X"}, {"O", "X", "O"}, {"X", "O", "O"}};
+        game_output(game);
 
-        String[] game_work = {test[0][0], test[0][1], test[0][2],
-                          test[1][0], test[1][1], test[1][2],
-                          test[2][0], test[2][1], test[2][2]};
+        int player_checker = 1;
+        int piece = 1;
+        Scanner in = new Scanner(System.in);
 
-        game_output(game_work);
+
+        //Main game's loop
+        while (player_checker < 10) {
+            if (player_checker % 2 != 0) {
+                //Ask player which cube want to choose
+                System.out.println("Player 1, where would You like place Your piece?\n");
+                //player's choise
+                piece = in.nextInt();
+
+                //Add choice to the game's array
+                game[piece - 1] = "X";
+
+                //output game's board
+                game_output(game);
+            } else {
+                //Ask player which cube want to choose
+                System.out.println("Player 2, where would You like place Your piece?\n");
+                //player's choise
+                piece = in.nextInt();
+
+                //Add choice to the game's array
+                game[piece - 1] = "O";
+
+                //output game's board
+                game_output(game);
+            }
+
+            player_checker++;
+        }
 
 
     }
