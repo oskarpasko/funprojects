@@ -16,13 +16,14 @@ public class Game {
     //Variables definitions
     static int player_checker = 1;
     static int piece = 1;
+    static boolean choice_check = false;
 
-    public static void game(){
+    public static void game() {
         //Outputs default board
         output.game_output(game);
 
         //Main game's loop
-            while (player_checker < 10) {
+        while (player_checker < 10) {
             if (player_checker % 2 != 0) {
 
                 player1(); //function for player1
@@ -37,29 +38,42 @@ public class Game {
         }
     }
 
-    public static void player1(){
-        //Ask player which cube want to choose
-        System.out.println("Player 1, where would You like place Your piece?\n");
+    public static void player1() {
+        choice_check = false;
 
-        //player's choise
-        piece = in.nextInt();
+        while (choice_check == false) {
+            //Ask player which cube want to choose
+            System.out.println("Player 1, where would You like place Your piece?\n");
 
-        //Add choice to the game's array
-        game[piece - 1] = "X";
+            //player's choice
+            piece = in.nextInt();
 
+            if (game[piece - 1] == "-") {
+                //Add choice to the game's array
+                game[piece - 1] = "X";
+                choice_check = true;
+            } else System.out.println("You cannot add piece here!");
+        }
         //output game's board
         output.game_output(game);
     }
 
-    public static void player2(){
-        //Ask player which cube want to choose
-        System.out.println("Player 2, where would You like place Your piece?\n");
-        //player's choise
-        piece = in.nextInt();
+    public static void player2() {
+        choice_check = false;
 
-        //Add choice to the game's array
-        game[piece - 1] = "O";
+        while (choice_check == false) {
+            //Ask player which cube want to choose
+            System.out.println("Player 1, where would You like place Your piece?\n");
 
+            //player's choice
+            piece = in.nextInt();
+
+            if (game[piece - 1] == "-") {
+                //Add choice to the game's array
+                game[piece - 1] = "O";
+                choice_check = true;
+            } else System.out.println("You cannot add piece here!");
+        }
         //output game's board
         output.game_output(game);
     }
