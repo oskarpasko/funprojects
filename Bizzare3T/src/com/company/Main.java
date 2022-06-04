@@ -2,6 +2,8 @@ package com.company;
 
 public class Main {
 
+
+    //function to write TicTacToe's board
     static void game_output(String array []){
         System.out.println(" " + array[0] + " " + " | " + " " + array[1] + " " + " | " + " " + array[2]);
         System.out.println("----|-----|----");
@@ -12,11 +14,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-
+        //Welcome player / players.
         System.out.println("Welcome in Bizzare3T!");
         System.out.println("");
         System.out.println("This is our schema.");
 
+        //Write schema for the game.
         System.out.println(" 1 " + " | " + " 2 " + " | " + " 3 ");
         System.out.println("----|-----|----");
         System.out.println(" 4 " + " | " + " 5 " + " | " + " 6 ");
