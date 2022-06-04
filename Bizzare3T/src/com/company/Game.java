@@ -25,15 +25,10 @@ public class Game {
         //Main game's loop
         while (player_checker < 10) {
             if (player_checker % 2 != 0) {
-
                 player1(); //function for player1
-
             } else {
-
                 player2(); //function for player 2
-
             }
-
             player_checker++;
         }
     }
@@ -80,15 +75,15 @@ public class Game {
         output.game_output(game);
     }
 
-    public static void win_checker(){
-        if((game[0] == game[1] && game[1] == game[2] && (game[0] != "-" && game[1] != "-" && game[2] != "-")) ||
+    public static void win_checker() {
+        if ((game[0] == game[1] && game[1] == game[2] && (game[0] != "-" && game[1] != "-" && game[2] != "-")) ||
                 (game[3] == game[4] && game[4] == game[5] && (game[3] != "-" && game[4] != "-" && game[5] != "-")) ||
                 (game[6] == game[7] && game[7] == game[8] && (game[6] != "-" && game[7] != "-" && game[8] != "-")) ||
                 (game[0] == game[3] && game[3] == game[6] && (game[0] != "-" && game[3] != "-" && game[6] != "-")) ||
                 (game[1] == game[4] && game[4] == game[7] && (game[1] != "-" && game[4] != "-" && game[7] != "-")) ||
                 (game[2] == game[5] && game[5] == game[8] && (game[2] != "-" && game[5] != "-" && game[8] != "-")) ||
                 (game[0] == game[4] && game[4] == game[8] && (game[0] != "-" && game[4] != "-" && game[8] != "-")) ||
-                (game[2] == game[4] && game[4] == game[6] && (game[2] != "-" && game[4] != "-" && game[6] != "-"))){
+                (game[2] == game[4] && game[4] == game[6] && (game[2] != "-" && game[4] != "-" && game[6] != "-"))) {
             System.out.println("You've won!");
             output.game_output(game);
             System.exit(0);
