@@ -24,31 +24,43 @@ public class Game {
         //Main game's loop
             while (player_checker < 10) {
             if (player_checker % 2 != 0) {
-                //Ask player which cube want to choose
-                System.out.println("Player 1, where would You like place Your piece?\n");
 
-                //player's choise
-                piece = in.nextInt();
+                player1(); //function for player1
 
-                //Add choice to the game's array
-                game[piece - 1] = "X";
-
-                //output game's board
-                output.game_output(game);
             } else {
-                //Ask player which cube want to choose
-                System.out.println("Player 2, where would You like place Your piece?\n");
-                //player's choise
-                piece = in.nextInt();
 
-                //Add choice to the game's array
-                game[piece - 1] = "O";
+                player2(); //function for player 2
 
-                //output game's board
-                output.game_output(game);
             }
 
             player_checker++;
         }
+    }
+
+    public static void player1(){
+        //Ask player which cube want to choose
+        System.out.println("Player 1, where would You like place Your piece?\n");
+
+        //player's choise
+        piece = in.nextInt();
+
+        //Add choice to the game's array
+        game[piece - 1] = "X";
+
+        //output game's board
+        output.game_output(game);
+    }
+
+    public static void player2(){
+        //Ask player which cube want to choose
+        System.out.println("Player 2, where would You like place Your piece?\n");
+        //player's choise
+        piece = in.nextInt();
+
+        //Add choice to the game's array
+        game[piece - 1] = "O";
+
+        //output game's board
+        output.game_output(game);
     }
 }
