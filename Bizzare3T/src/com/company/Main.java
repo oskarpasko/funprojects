@@ -1,14 +1,12 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Main {
 
     static Output output = new Output();
     static Game game = new Game();
     static Player player = new Player();
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         //outputs welcome texts
         output.welcome();
