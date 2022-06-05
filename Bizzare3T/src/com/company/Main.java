@@ -18,8 +18,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //outputs welcome texts
-        output.welcome();
+
 
         output.menu();
 
