@@ -24,12 +24,17 @@ public class Menu {
             while((choice < 1) || (choice > 2)){
                 choice = in.nextInt();
 
+                //switch case of user choices
                 switch(choice){
                     case 1: //start game
+                        //entering 1st player's name
                         System.out.println("Player 1 name: ");
                         game.setPlayer1(player.read_name());
+                        //entering 2nd player's name
                         System.out.println("Player 2 name: ");
                         game.setPlayer2(player.read_name());
+
+                        //starting Game.game() method
                         game.game();
                         break;
                     case 2: //exit game
