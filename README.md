@@ -6,9 +6,9 @@ They may not have the best solution to solve a problems or tasks or something el
 They were created 4fun. Some projects can be developed in the future.
 
 ## Bizzare3T
+Language: Java<br /><br />
+This is TicTacToe game which some bizzare settings and ideas.
 
-This is TicTacToe game which some bizzare settings and ideas.<br />
-Language: Java
 
 ## Authors
 
