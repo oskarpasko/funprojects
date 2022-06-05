@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Game {
@@ -41,6 +42,23 @@ public class Game {
         }
     }
 
+    public static void game_with_ai(){
+        //Outputs default board
+        output.game_output(game);
+
+        System.out.println("Your opponent will be null");
+
+        //Main game's loop
+        while (player_checker < 10) {
+            if (player_checker % 2 != 0) {
+                player1(); //function for player1
+            } else {
+                ai(); //function for player 2
+            }
+            player_checker++;
+        }
+    }
+
     public static void player1() {
         choice_check = false;
 
@@ -52,7 +70,7 @@ public class Game {
             piece = in.nextInt();
 
             //checker if cube where user want to place piece is free
-            if ((game[piece - 1] != "X") || (game[piece - 1] != "O")) {
+            if ((game[piece - 1] != "X") && (game[piece - 1] != "O")) {
                 //Add choice to the game's array
                 game[piece - 1] = "X";
                 choice_check = true;
@@ -79,7 +97,7 @@ public class Game {
             piece = in.nextInt();
 
             //checker if cube where user want to place piece is free
-            if ((game[piece - 1] != "X") || (game[piece - 1] != "O")) {
+            if ((game[piece - 1] != "X") && (game[piece - 1] != "O")) {
                 //Add choice to the game's array
                 game[piece - 1] = "O";
                 choice_check = true;
@@ -93,6 +111,34 @@ public class Game {
         }
         //output game's board
         output.game_output(game);
+    }
+
+    public static void ai(){
+        choice_check = false;
+        Random rand = new Random();
+
+        System.out.println();
+
+        while(choice_check == false){
+            piece = rand.nextInt(9);
+
+            //checker if cube where user want to place piece is free
+            if ((game[piece] != "X") && (game[piece] != "O")) {
+                //Add choice to the game's array
+                game[piece] = "O";
+                choice_check = true;
+
+                //checker if player've won
+                if (win_checker() == true){
+                    System.out.println(player2 +" have won!");
+                    System.exit(0);
+                }
+            }
+        }
+        //output game's board
+        output.game_output(game);
+        System.out.println();
+        System.out.println("It's AI's turn\n");
     }
 
 
