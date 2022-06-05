@@ -12,6 +12,7 @@ public class Output {
         System.out.println("  " + array[6] + " " + " | " + " " + array[7] + " " + " | " + " " + array[8]);
     }
 
+    //output for welcome players
     public static void welcome() {
         //Welcome player / players.
         System.out.println("Welcome in Bizzare3T!");
@@ -27,6 +28,7 @@ public class Output {
         System.out.println("\n");
     }
 
+    //output for choose menu in main_menu
     public static void menu(){
         System.out.println("Choose action");
         System.out.println("1. Play 1 vs 1");

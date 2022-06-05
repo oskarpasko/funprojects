@@ -18,10 +18,10 @@ public class Game {
     static boolean choice_check = false;
     static String player1, player2;
 
+    //setters
     public static void setPlayer1(String player1) {
         Game.player1 = player1;
     }
-
     public static void setPlayer2(String player2) {
         Game.player2 = player2;
     }
@@ -51,10 +51,13 @@ public class Game {
             //player's choice
             piece = in.nextInt();
 
+            //checker if cube where user want to place piece is free
             if ((game[piece - 1] != "X") || (game[piece - 1] != "O")) {
                 //Add choice to the game's array
                 game[piece - 1] = "X";
                 choice_check = true;
+
+                //checker if player've won
                 if (win_checker() == true){
                     System.out.println(player1 +" have won!");
                     System.exit(0);
@@ -75,10 +78,13 @@ public class Game {
             //player's choice
             piece = in.nextInt();
 
+            //checker if cube where user want to place piece is free
             if ((game[piece - 1] != "X") || (game[piece - 1] != "O")) {
                 //Add choice to the game's array
                 game[piece - 1] = "O";
                 choice_check = true;
+
+                //checker if player've won
                 if (win_checker() == true){
                     System.out.println(player2 +" have won!");
                     System.exit(0);
@@ -89,6 +95,8 @@ public class Game {
         output.game_output(game);
     }
 
+
+    //method to check if player win in his/her turn
     public static boolean win_checker() {
         if ((game[0] == game[1] && game[1] == game[2] && ((game[0] == "X" && game[1] == "X" && game[2] == "X") || (game[0] == "O" && game[1] == "O" && game[2] == "O"))) ||
                 (game[3] == game[4] && game[4] == game[5] && ((game[3] == "X" && game[4] == "X" && game[5] == "X") || (game[3] == "O" && game[4] == "O" && game[5] == "O"))) ||
