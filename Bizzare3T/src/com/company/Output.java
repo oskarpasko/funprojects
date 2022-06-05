@@ -31,7 +31,8 @@ public class Output {
     //output for choose menu in main_menu
     public static void menu(){
         System.out.println("Choose action");
-        System.out.println("1. Play 1 vs 1");
-        System.out.println("2. Exit");
+        System.out.println("1. Player vs Player");
+        System.out.println("2. Player vs AI");
+        System.out.println("3. Exit");
     }
 }

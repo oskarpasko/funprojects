@@ -39,7 +39,16 @@ public class Menu {
                         //starting Game.game() method
                         game.game();
                         break;
-                    case 2: //exit game
+                    case 2:
+                        //entering 1st player's name
+                        System.out.println("Player 1 name: ");
+                        //setting 1st player's name
+                        game.setPlayer1(player.read_name());
+
+
+                        //starting game with ai
+                        game.game_with_ai();
+                    case 3: //exit game
                         System.exit(0);
                     default:
                         System.out.println("Wrong choice!");
