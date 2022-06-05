@@ -7,7 +7,7 @@ They were created 4fun. Some projects can be developed in the future.
 
 ## Bizzare3T
 
-This is TicTacToe game which some bizzare settings and ideas.< /br>
+This is TicTacToe game which some bizzare settings and ideas.<br />
 Language: Java
 
 ## Authors
