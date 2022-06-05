@@ -29,9 +29,11 @@ public class Menu {
                     case 1: //start game
                         //entering 1st player's name
                         System.out.println("Player 1 name: ");
+                        //setting 1st player's name
                         game.setPlayer1(player.read_name());
                         //entering 2nd player's name
                         System.out.println("Player 2 name: ");
+                        //setting 2nd player's name
                         game.setPlayer2(player.read_name());
 
                         //starting Game.game() method
