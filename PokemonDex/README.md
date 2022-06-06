@@ -1,4 +1,7 @@
 
-# PokemonDex, Alpha 0.0.1
+# PokemonDex
 
 ## Ideas
+
+## Version
+Alpha 0.0.1
