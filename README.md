@@ -7,12 +7,14 @@ They were created 4fun. Some projects can be developed in the future.
 
 ## Bizzare3T
 This is TicTacToe game which some bizzare settings and ideas.<br /><br />
-Language: Java
+Language: Java<br /><br />
+Version: 1.1
 
 ## PokemonDex
 
 This will be game in Pokemon world<br /><br />
-Language: Java
+Language: Java<br /><br />
+Version: Alpha 0.0.1
 
 ## Authors
 
