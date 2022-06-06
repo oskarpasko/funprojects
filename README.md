@@ -9,6 +9,11 @@ They were created 4fun. Some projects can be developed in the future.
 This is TicTacToe game which some bizzare settings and ideas.<br /><br />
 Language: Java
 
+## PokemonDex
+
+This will be game in Pokemon world<br /><br />
+Language: Java
+
 ## Authors
 
 - [@oskarpasko](https://www.github.com/oskarpasko)
