@@ -13,7 +13,7 @@ Version: 1.1
 ## PokemonDex
 
 This will be game in Pokemon world<br /><br />
-Language: Java<br /><br />
+Language: Python<br /><br />
 Version: Alpha 0.0.1
 
 ## Authors
