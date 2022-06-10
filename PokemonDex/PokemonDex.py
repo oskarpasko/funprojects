@@ -2,13 +2,13 @@ from src.Pokemon import Pokemon
 import random
 
 # list of pokemons
-pokemons = [Pokemon('Torchic', 5),
-            Pokemon('Mudkip', 5),
-            Pokemon('Treeko', 5),
-            Pokemon("Poochyena", 2),
-            Pokemon("Wurmple", 2),
-            Pokemon("Wurmple", 3),
-            Pokemon('Wurmple', 4)]
+pokemons = [Pokemon('Torchic', 5, 5),
+            Pokemon('Mudkip', 5, 5),
+            Pokemon('Treeko', 5, 5),
+            Pokemon("Poochyena", 2, 3),
+            Pokemon("Wurmple", 2, 0),
+            Pokemon("Wurmple", 3, 1),
+            Pokemon('Wurmple', 4, 2)]
 
 # Writes all pokemons from list
 # for pokemon in pokemons:
@@ -27,8 +27,12 @@ pokemons = [Pokemon('Torchic', 5),
 
 # Catch pokemon tests
 print("\nYou've found wild Pokemon! \n")
-random.choice(pokemons).show_pokemon()
+appeard_pokemon = random.choice(pokemons)
+pokemon_catch_ratio = appeard_pokemon.catch_ratio
 checker = False
+
+appeard_pokemon.show_pokemon()
+
 
 
 # main method of fight?
@@ -41,13 +45,13 @@ while(checker == False):
 
     match(choice):
         case '1':
-            if(random.randint(0, 10) > 5):
+            if(random.randint(0, 10) > pokemon_catch_ratio):
                 print('1...')
-                if(random.randint(0, 10) > 5):
+                if(random.randint(0, 10) > pokemon_catch_ratio):
                     print('2...')
-                    if(random.randint(0, 10) > 5):
+                    if(random.randint(0, 10) > pokemon_catch_ratio):
                         print('3...')
-                        if(random.randint(0, 10) > 5):
+                        if(random.randint(0, 10) > pokemon_catch_ratio):
                             print("You've just caught new pokemon!")
                             checker = True
                         else:
