@@ -1,4 +1,4 @@
-from Pokemon import Pokemon
+from src.Pokemon import Pokemon
 
 pokemons = [Pokemon('Torchic', 5), Pokemon('Mudkip', 5), Pokemon('Treeko', 5)]
 
