@@ -4,4 +4,4 @@ class Pokemon:
         self.level = level
 
     def show_pokemon(self):
-        print('This is ' + self.name + ', lv. ' + self.level + '!')
+        print('This is ' + self.name + ', lv. ' + str(self.level) + '!')
