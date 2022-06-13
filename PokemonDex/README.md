@@ -4,9 +4,11 @@
 ## Ideas
 
 Ideas for the near future:
-- Try to move mechanics with fight to some method to new file fight.py for example. 
-- Try to improve fight method
-- Create 'Search pokemon' mechanics, This mechanics should search new wild pokemons until player wants to leave
+[Done] Try to move mechanics with fight to some method to new file fight.py for example. 
+[Done] Try to improve fight method
+[Done] Create 'Search pokemon' mechanics, This mechanics should search new wild pokemons until player wants to leave
+- create mechanics with move from one route to another
+- create descriptions class for descriptions for all routes / cities
 
 Ideas for later:
 - Add mechanics with throwing berry to decrease catch rate 
