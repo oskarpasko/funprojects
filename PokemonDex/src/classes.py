@@ -8,3 +8,12 @@ class Pokemon:
     # works method to show pokemon's data
     def show_pokemon(self):
         print('This is ' + self.name + ', lv. ' + str(self.level) + '!')
+
+
+class Route:
+    def __init__(self, name, connections):
+        self.name = name
+        self.connections = connections()
+
+    def show_test(self):
+        print(self.connections)
