@@ -1,4 +1,4 @@
-from src.Pokemon import Pokemon
+from src.classes import Pokemon
 
 # list of pokemons
 
