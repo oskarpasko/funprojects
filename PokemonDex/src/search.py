@@ -3,6 +3,8 @@ from src.fight import fight
 # method with pokemon searching mechanics
 
 # pokemon_in_route -> should be one of databases from WildPokemon class in wild_pokemon.py
+
+
 def search(pokemon_in_route):
     exit = 0
 

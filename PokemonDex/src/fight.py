@@ -2,7 +2,9 @@ import random
 from src.wild_pokemon import WildPokemon
 
 # wild_pokeon -> should be one of databases from WildPokemon class in wild_pokemon.py
-def fight(wild_pokemons): 
+
+
+def fight(wild_pokemons):
     # Start Battle!!!!!
 
     # randomize pokemon
@@ -20,7 +22,7 @@ def fight(wild_pokemons):
         print('1. Catch!')
         print('2. Run!\n')
 
-        choice = input('...') # user's input
+        choice = input('...')  # user's input
 
         match(choice):
             case '1':
