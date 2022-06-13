@@ -1,7 +1,8 @@
 import random
 from src.wild_pokemon import WildPokemon
 
-def fight(wild_pokemons):
+# wild_pokeon -> should be one of databases from WildPokemon class in wild_pokemon.py
+def fight(wild_pokemons): 
     # Start Battle!!!!!
 
     # randomize pokemon
@@ -10,6 +11,7 @@ def fight(wild_pokemons):
     pokemon_catch_ratio = appeard_pokemon.catch_ratio
     checker = False
 
+    # print pokemon datas
     appeard_pokemon.show_pokemon()
 
     # main method of fight
@@ -18,10 +20,12 @@ def fight(wild_pokemons):
         print('1. Catch!')
         print('2. Run!\n')
 
-        choice = input('...')
+        choice = input('...') # user's input
 
         match(choice):
             case '1':
+
+                # catch mechanics
                 if(random.randint(0, 10) > pokemon_catch_ratio):
                     print('1...')
                     if(random.randint(0, 10) > pokemon_catch_ratio):
