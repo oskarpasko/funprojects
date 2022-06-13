@@ -1,12 +1,12 @@
 import random
 from src.wild_pokemon import WildPokemon
 
-def fight():
+def fight(wild_pokemons):
     # Start Battle!!!!!
 
-    # Catch pokemon tests
+    # randomize pokemon
     print("\nYou've found wild Pokemon! \n")
-    appeard_pokemon = random.choice(WildPokemon.pokemons_test_route)
+    appeard_pokemon = random.choice(wild_pokemons)
     pokemon_catch_ratio = appeard_pokemon.catch_ratio
     checker = False
 

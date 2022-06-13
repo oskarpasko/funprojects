@@ -1,3 +1,4 @@
-from src.fight import fight
+from src.search import search
+from src.wild_pokemon import WildPokemon
 
-fight()
+search(WildPokemon.pokemons_test_route)
