@@ -2,6 +2,7 @@ from src.Pokemon import Pokemon
 
 # list of pokemons
 
+# class with 'databases' with pokemon in each route / city
 class WildPokemon:
     pokemons_test_route = [
                 Pokemon('Torchic', 5, 5),
