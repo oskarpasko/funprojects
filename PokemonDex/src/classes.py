@@ -11,9 +11,16 @@ class Pokemon:
 
 
 class Route:
-    def __init__(self, name, connections):
+    def __init__(self, name, connections, description):
         self.name = name
         self.connections = connections
+        self.desctription = description
 
-    def show_test(self):
-        print(self.connections)
+    def show_description(self):
+        print(self.desctription)
+
+    def action(self):
+        print('Which action You would like to chose?')
+
+    def go_to(self):
+        pass
