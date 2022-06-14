@@ -1,5 +1,4 @@
 import random
-from src.wild_pokemon import WildPokemon
 
 # wild_pokeon -> should be one of databases from WildPokemon class in wild_pokemon.py
 
@@ -50,3 +49,6 @@ def fight(wild_pokemons):
                 checker = True
             case _:
                 print("Wrong choice!")
+
+if __name__ == '__main__':
+    fight()

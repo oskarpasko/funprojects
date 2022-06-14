@@ -21,3 +21,6 @@ def search(pokemon_in_route):
                 exit = 1
             case _:
                 print('Wrong choice!')
+
+if __name__ == '__main__':
+    search()
