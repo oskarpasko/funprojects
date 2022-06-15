@@ -1,4 +1,7 @@
-from src.search import search
-from src.wild_pokemon import WildPokemon
+from src.routes import routes
 
-search(WildPokemon.pokemons_test_route)
+print('=============================================')
+print('+++++++++++++++++++++++++++++++++++++++++++++')
+print('=============================================')
+
+routes('201')
