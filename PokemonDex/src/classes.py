@@ -1,4 +1,5 @@
 from . import search
+from . import routes
 
 class Pokemon:
     # constructor with variables {pokemon name, pokemon level, pokemon catch ratio}
@@ -13,28 +14,54 @@ class Pokemon:
 
 
 class Route:
-    def __init__(self, name, connections, description, pokemons):
+    def __init__(self, name, connections, pokemons):
         self.name = name
         self.connections = connections
-        self.desctription = description
         self.pokemons = pokemons
 
-    def show_description(self):
-        print(self.desctription)
+    def welcome(self):
+        print('')
+        print('---------------------------------------------')
+        print("Welcome on route " + self.name)
 
-    def action(self):
-        print('Which action You would like to chose?')
-        print('1. Search Pokemon')
-        choice = input('...')
-        match(choice):
-            case '1':
-                search.search(self.pokemons)
-                pass
-            case _:
-                print('Wrong choice!')
+    def show_description(self):
+        print('\nIn this route You can catch this pokemons: ')
+        for pokemon in self.pokemons:
+            print(pokemon.name + ', lv.' + str(pokemon.level))
 
     def go_to(self):
-        pass
+        i = 1
+        print('\n')
+        for conn in self.connections:
+            print(str(i) + '. Route ' + str(conn))
+            i+=1
+        i = 1
+        choice = input('\nWhere do You want to go? ...')
+        for conn in self.connections:
+            if(choice == str(i)):
+                routes.routes(conn)
+            i+=1
+
+    def action(self):
+        while(True):
+            print('\nWhich action You would like to chose?')
+            print('1. Show description')
+            print('2. Search Pokemon')
+            print('3. Go To...')
+            print('4. Quit game')
+            choice = input('...')
+            match(choice):
+                case '1':
+                    self.show_description()
+                case '2':
+                    search.search(self.pokemons)
+                case '3':
+                    self.go_to()
+                case '4':
+                    exit()
+                case _:
+                    print('Wrong choice!')
+
 
 
 
@@ -43,7 +70,7 @@ class Route:
 # class with 'databases' with pokemon in each route / city
 
 class WildPokemon:
-    pokemons_test_route = [
+    pokemons_route_201 = [
         Pokemon('Torchic', 5, 5),
         Pokemon('Mudkip', 5, 5),
         Pokemon('Treeko', 5, 5),
@@ -51,4 +78,9 @@ class WildPokemon:
         Pokemon("Wurmple", 2, 0),
         Pokemon("Wurmple", 3, 1),
         Pokemon('Wurmple', 4, 2)
+    ]
+
+    pokemons_route_202 = [
+        Pokemon('Wurmple', 2, 0),
+        Pokemon('Poochyena', 4, 2)
     ]

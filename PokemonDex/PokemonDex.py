@@ -1,10 +1,7 @@
-from src.classes import WildPokemon
-from src.classes import Route
+from src.routes import routes
 
-conn = ['202', '203', '204']
-des = 'You are on route 201 in this area are not any Pokemons'
-pokemons = WildPokemon.pokemons_test_route
-route201 = Route('201', conn, des, pokemons)
+print('=============================================')
+print('+++++++++++++++++++++++++++++++++++++++++++++')
+print('=============================================')
 
-route201.show_description()
-route201.action()
+routes('201')
