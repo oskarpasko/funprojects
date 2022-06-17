@@ -27,4 +27,4 @@ Ideas for plot:
 
 
 ## Version
-Alpha 0.0.1
+Alpha 1.0
