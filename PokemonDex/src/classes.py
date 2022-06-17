@@ -22,6 +22,8 @@ class Route:
         self.connections = connections
         self.pokemons = pokemons
 
+    # func to welcome player on each route
+
     def welcome(self):
         print('\n---------------------------------------------')
         text = f'{Colors.YELLOW}Welcome on Route ' + self.name + f'{Colors.END}'
@@ -30,10 +32,16 @@ class Route:
 
         time.sleep(0.5)
 
+    # func to write desritpion for each route
+
     def show_description(self):
         print(f'{Colors.YELLOW}\nIn this route You can catch this pokemons: {Colors.END}')
         for pokemon in self.pokemons:
             text_display(f'{Colors.BLUE}{pokemon.name}, lv.{str(pokemon.level)}{Colors.END}\n')
+
+
+    # func which handle mechanics to choose and select right route 
+    # where player want to go
 
     def go_to(self):
         text_display(f'{Colors.YELLOW}Which route You would like to choose?{Colors.END}')
@@ -47,6 +55,8 @@ class Route:
             if(choice == str(i)):
                 routes.routes(conn)
             i+=1
+
+    # func with menu for game
 
     def action(self):
         while(True):

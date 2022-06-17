@@ -1,5 +1,6 @@
 import sys, time
 
+# Colors for whole project
 class Colors:
     """ ANSI color codes """
     BLACK = "\033[0;30m"
@@ -26,6 +27,8 @@ class Colors:
     NEGATIVE = "\033[7m"
     CROSSED = "\033[9m"
     END = "\033[0m"
+
+# function to display text word after word, letter after letter
 
 def text_display(text):
     for char in text:

@@ -1,6 +1,11 @@
 from src.classes import WildPokemon
 from src.classes import Route
 
+# file to handle mechanics with routes
+
+
+#main func to choose right route
+
 def routes(name):
     match(name):
         case '201':
@@ -21,6 +26,7 @@ def routes(name):
             _route_208()
         case _:
             'Error 249!'
+
 
 def _route_201():
     conn = ['202', '203', '204']
