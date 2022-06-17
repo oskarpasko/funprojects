@@ -1,5 +1,8 @@
 from . import search
 from . import routes
+from .minimap import minimap
+from .settings import text_display, Colors
+import time
 
 class Pokemon:
     # constructor with variables {pokemon name, pokemon level, pokemon catch ratio}
@@ -10,7 +13,7 @@ class Pokemon:
 
     # works method to show pokemon's data
     def show_pokemon(self):
-        print('This is ' + self.name + ', lv. ' + str(self.level) + '!')
+        text_display(f'{Colors.LIGHT_GREEN}This is {self.name}, lv.{str(self.level)}!{Colors.END}')
 
 
 class Route:
@@ -20,23 +23,26 @@ class Route:
         self.pokemons = pokemons
 
     def welcome(self):
-        print('')
-        print('---------------------------------------------')
-        print("Welcome on route " + self.name)
+        print('\n---------------------------------------------')
+        text = f'{Colors.YELLOW}Welcome on Route ' + self.name + f'{Colors.END}'
+
+        text_display(text)
+
+        time.sleep(0.5)
 
     def show_description(self):
-        print('\nIn this route You can catch this pokemons: ')
+        print(f'{Colors.YELLOW}\nIn this route You can catch this pokemons: {Colors.END}')
         for pokemon in self.pokemons:
-            print(pokemon.name + ', lv.' + str(pokemon.level))
+            text_display(f'{Colors.BLUE}{pokemon.name}, lv.{str(pokemon.level)}{Colors.END}\n')
 
     def go_to(self):
+        text_display(f'{Colors.YELLOW}Which route You would like to choose?{Colors.END}')
         i = 1
-        print('\n')
         for conn in self.connections:
-            print(str(i) + '. Route ' + str(conn))
+            text_display(f'\n{Colors.PURPLE}{str(i)}. Route {str(conn)}{Colors.END}')
             i+=1
         i = 1
-        choice = input('\nWhere do You want to go? ...')
+        choice = input(f'{Colors.LIGHT_WHITE}\nYour choice: {Colors.END}')
         for conn in self.connections:
             if(choice == str(i)):
                 routes.routes(conn)
@@ -44,23 +50,30 @@ class Route:
 
     def action(self):
         while(True):
-            print('\nWhich action You would like to chose?')
-            print('1. Show description')
-            print('2. Search Pokemon')
-            print('3. Go To...')
-            print('4. Quit game')
-            choice = input('...')
+            text_display('\nWhich action You would like to chose?\n')
+            time.sleep(0.5)
+            text = f"""{Colors.PURPLE}1. Show description
+2. Show minimap
+3. Search Pokemon
+4. Go To...
+5. Quit game{Colors.END}\n"""
+
+            text_display(text)
+
+            choice = input(f'{Colors.LIGHT_WHITE}Your choice: {Colors.END}')
             match(choice):
                 case '1':
                     self.show_description()
                 case '2':
-                    search.search(self.pokemons)
+                    minimap.minimap()
                 case '3':
-                    self.go_to()
+                    search.search(self.pokemons)
                 case '4':
+                    self.go_to()
+                case '5':
                     exit()
                 case _:
-                    print('Wrong choice!')
+                    print(f'{Colors.LIGHT_RED}Wrong choice!{Colors.END}')
 
 
 
@@ -71,16 +84,56 @@ class Route:
 
 class WildPokemon:
     pokemons_route_201 = [
-        Pokemon('Torchic', 5, 5),
-        Pokemon('Mudkip', 5, 5),
-        Pokemon('Treeko', 5, 5),
+        Pokemon('Torchic', 5, 4),
+        Pokemon('Mudkip', 5, 4),
+        Pokemon('Treeko', 5, 4)
+    ]
+
+    pokemons_route_202 = [
         Pokemon("Poochyena", 2, 3),
+        Pokemon('Zigzagoon', 3, 2),
         Pokemon("Wurmple", 2, 0),
         Pokemon("Wurmple", 3, 1),
         Pokemon('Wurmple', 4, 2)
     ]
 
-    pokemons_route_202 = [
+    pokemons_route_203 = [
         Pokemon('Wurmple', 2, 0),
-        Pokemon('Poochyena', 4, 2)
+        Pokemon('Poochyena', 4, 2),
+        Pokemon('Wingull', 6, 3),
+        Pokemon('Marill', 7, 5),
+        Pokemon('Marill', 4, 3)
+    ]
+
+    pokemons_route_204 = [
+        Pokemon('Marill', 7, 5),
+        Pokemon('Sableye', 10, 5),
+        Pokemon('Makuhita', 11, 6),
+        Pokemon('Absol', 11, 4)
+    ]
+
+    pokemons_route_205 = [
+        Pokemon('Absol', 13, 5),
+        Pokemon('Tropius', 16, 7),
+        Pokemon('Spheal', 18, 6),
+        Pokemon('Swablu', 19, 3)
+    ]
+
+    pokemons_route_206 = [
+        Pokemon('Absol', 13, 5),
+        Pokemon('Tropius', 16, 7),
+        Pokemon('Spheal', 18, 6),
+        Pokemon('Swablu', 19, 3),
+        Pokemon('Manetric', 20, 6)
+    ]
+
+    pokemons_route_207 = [
+        Pokemon('Beldum', 22, 7),
+        Pokemon('Bagon', 22, 7)
+    ]
+
+    pokemons_route_208 = [
+        Pokemon('Reyquaza', 70, 9),
+        Pokemon('Kyogre', 45, 9),
+        Pokemon('Groudon', 45, 9)
     ]

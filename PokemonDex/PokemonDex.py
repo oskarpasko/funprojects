@@ -1,7 +1,9 @@
 from src.routes import routes
+from src.settings import Colors
 
-print('=============================================')
-print('+++++++++++++++++++++++++++++++++++++++++++++')
-print('=============================================')
+print(f'{Colors.BLUE}=============================================')
+print(f'{Colors.YELLOW}+++++++++++++++++{Colors.CYAN}PokemonDex{Colors.YELLOW}++++++++++++++++++{Colors.BLUE}')
+print(f'============================================={Colors.END}')
+
 
 routes('201')
