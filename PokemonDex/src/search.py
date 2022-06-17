@@ -1,4 +1,5 @@
 from src.fight import fight
+from src.settings import Colors, text_display
 
 # method with pokemon searching mechanics
 
@@ -10,9 +11,10 @@ def search(pokemon_in_route):
 
     # searching loop
     while(exit == 0):
-        print('1.Search')
-        print('2.Leave')
-        choice = input('...')
+        text_display(f'{Colors.YELLOW}Choose Your action.{Colors.END}')
+        text = f'{Colors.PURPLE}\n1. Search\n2. Leave{Colors.END}'
+        text_display(text)
+        choice = input(f'{Colors.LIGHT_WHITE}\nYour choice: {Colors.END}')
 
         match(choice):
             case '1':
@@ -20,7 +22,7 @@ def search(pokemon_in_route):
             case '2':
                 exit = 1
             case _:
-                print('Wrong choice!')
+                print(f'{Colors.LIGHT_RED}Wrong choice!{Colors.END}')
 
 if __name__ == '__main__':
     search()

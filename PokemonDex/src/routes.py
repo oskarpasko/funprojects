@@ -40,7 +40,7 @@ def _route_202():
 
 def _route_203():
     conn = ['201', '202', '204', '206', '207', '208']
-    pokemons = WildPokemon.pokemons_route_202
+    pokemons = WildPokemon.pokemons_route_203
     route202 = Route('203', conn, pokemons)
 
     route202.welcome()
@@ -48,7 +48,7 @@ def _route_203():
 
 def _route_204():
     conn = ['201', '202', '203', '205']
-    pokemons = WildPokemon.pokemons_route_202
+    pokemons = WildPokemon.pokemons_route_204
     route202 = Route('204', conn, pokemons)
 
     route202.welcome()
@@ -56,7 +56,7 @@ def _route_204():
 
 def _route_205():
     conn = ['204', '206']
-    pokemons = WildPokemon.pokemons_route_202
+    pokemons = WildPokemon.pokemons_route_205
     route202 = Route('205', conn, pokemons)
 
     route202.welcome()
@@ -64,7 +64,7 @@ def _route_205():
 
 def _route_206():
     conn = ['203', '206', '207', '208']
-    pokemons = WildPokemon.pokemons_route_202
+    pokemons = WildPokemon.pokemons_route_206
     route202 = Route('206', conn, pokemons)
 
     route202.welcome()
@@ -72,7 +72,7 @@ def _route_206():
 
 def _route_207():
     conn = ['203', '206', '208']
-    pokemons = WildPokemon.pokemons_route_202
+    pokemons = WildPokemon.pokemons_route_207
     route202 = Route('207', conn, pokemons)
 
     route202.welcome()
@@ -80,7 +80,7 @@ def _route_207():
 
 def _route_208():
     conn = ['203', '206', '207']
-    pokemons = WildPokemon.pokemons_route_202
+    pokemons = WildPokemon.pokemons_route_208
     route202 = Route('208', conn, pokemons)
 
     route202.welcome()
