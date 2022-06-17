@@ -14,7 +14,7 @@ Version: 1.1
 
 This will be game in Pokemon world<br /><br />
 Language: Python<br /><br />
-Version: Alpha 0.0.1
+Version: Alpha 1.0
 
 ## Authors
 
