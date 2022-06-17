@@ -4,14 +4,9 @@
 ## Ideas
 
 Ideas for the near future:
-- create mechanics with move from one route to another
-- create descriptions class for descriptions for all routes / cities
-
-Ideas for later:
 - Add mechanics with throwing berry to decrease catch rate 
 - Add other kinds of pokeballs
 - Add mechanics to save game on files 
-
 
 Ideas for save game:
 - Data like player name, caught Pokémons, seen Pokémon
