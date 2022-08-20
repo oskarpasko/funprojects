@@ -18,8 +18,8 @@ Version: Alpha 1.0
 
 ## Karcianka w uniwersum Broken Ranks
 Gra stworzona na silniku Unity, postacie oraz umiejętności itp z uniwersum Taerna.
-Postacie takie jak w taernie, karty np pająki, bandyci, czempioni, bossi itp.
-Language: 
+Postacie takie jak w taernie, karty np pająki, bandyci, czempioni, bossi itp.<br /><br />
+Language: <br /><br />
 Version: 0.0
 
 ## Authors
