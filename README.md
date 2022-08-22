@@ -16,10 +16,11 @@ This will be game in Pokemon world<br /><br />
 Language: Python<br /><br />
 Version: Alpha 1.0
 
-## Karcianka w uniwersum Broken Ranks
-Gra stworzona na silniku Unity, postacie oraz umiejętności itp z uniwersum Taerna.
-Postacie takie jak w taernie, karty np pająki, bandyci, czempioni, bossi itp.<br /><br />
-Language: <br /><br />
+## MealDriver
+First game created in Unity2D. This game was created to prictice C# and some other things in Unity.<br /><br />
+You can only ride, pick up and deliver packages, but it's still such a fun game tho.
+Engine: Unity2D<br /><br />
+Language: C# <br /><br />
 Version: 0.0
 
 ## Authors
