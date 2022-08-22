@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Driver : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 10f;
+    [SerializeField] float moveSpeed = 15f;
     [SerializeField] float steerSpeed = 250f;
 
     void Start()
