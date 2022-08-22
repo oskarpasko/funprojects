@@ -18,7 +18,7 @@ Version: Alpha 1.0
 
 ## MealDriver
 First game created in Unity2D. This game was created to prictice C# and some other things in Unity.<br /><br />
-You can only ride, pick up and deliver packages, but it's still such a fun game tho.
+You can only ride, pick up and deliver packages, but it's still such a fun game tho.<br /><br />
 Engine: Unity2D<br /><br />
 Language: C# <br /><br />
 Version: 0.0
