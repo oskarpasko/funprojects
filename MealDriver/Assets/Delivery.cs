@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Colliosion : MonoBehaviour
+public class Delivery : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -11,6 +11,14 @@ public class Colliosion : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("What was that?");
+        if(other.tag == "Package")
+        {
+            Debug.Log("Package picked up!");
+        }
+
+        if(other.tag == "Customer")
+        {
+            Debug.Log("Package was deliverd!");
+        }
     }
 }
