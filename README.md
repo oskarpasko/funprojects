@@ -21,7 +21,14 @@ First game created in Unity2D. This game was created to prictice C# and some oth
 You can only ride, pick up and deliver packages, but it's still such a fun game tho.<br /><br />
 Engine: Unity2D<br /><br />
 Language: C# <br /><br />
-Version: 0.0
+Version: Alpha 1.0
+
+## Snow Flips
+Game where you can make flips on snowboard.<br /><br />
+Another game which was created to practise some stuff in Unity2D<br /><br />
+Engine: Unity2D<br /><br />
+Language: C# <br /><br />
+Version: Alpha 0.0
 
 ## Authors
 
