@@ -21,8 +21,6 @@ public class Driver : MonoBehaviour
         float moveAmount = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
         transform.Rotate(0, 0, -steerAmount);
         transform.Translate(0, moveAmount, 0);
-
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
