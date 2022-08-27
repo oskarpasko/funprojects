@@ -2,9 +2,13 @@
 
 File to create some concepts for new games or just for new projects.
 
+<br /><br />
+
 # Table of Concepts
 1. [Try To Get Up](#Try-To-Get-Up)
 2. [Taern: Broken Cards](#Taern-Broken-Cards)
+
+<br /><br />
 
 # Try To Get Up
 
@@ -26,7 +30,7 @@ Genres: Runner, platformer<br />
 Language: C#<br />
 Engine: Unity2D
 
-<br /><br /><br />
+<br /><br />
 
 # Taern: Broken Cards
 
@@ -43,4 +47,4 @@ Genres: Card Game<br />
 Language: C#<br />
 Engine: Unity2D
 
-<br /><br /><br />
+<br /><br />
