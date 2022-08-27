@@ -17,7 +17,7 @@ Pierwszy level niech zawiera tylko momenty w których trzeba coś przeskoczyć.<
 Gra powinna zawierać przynajmniej na początek 2 poziomy.
 W dalesz częście można dodawać nowe poziomy oraz ewentualnie nowe mechaniki.<br /><br />
 
-
+Genres: Runner, platformer
 Language: C#<br /><br />
 Engine: Unity2D
 
@@ -32,6 +32,6 @@ Postacie na kartach powinny być takie jak w Taernie (podobne).<br /><br />
 
 Such an empty space!
 
-
+Genres: Card Game
 Language: C#<br /><br />
 Engine: Unity2D
