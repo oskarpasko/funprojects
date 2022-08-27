@@ -6,16 +6,15 @@ File to create some concepts for new games or just for new projects.
 1. [Try To Get Up](#Try-To-Get-Up)
 2. [Taern: Broken Cards](#Taern-Broken-Cards)
 
-```diff
-+ Try To Get Up
-```
+# Try To Get Up
 
 ## Description
 
+```dif
 Głowna postać leci w kierunku prawo/dół pod kątem około 45 stopni cały czas i nie można jej zatrzymać.<br /><br />
 Co jakiś czas napotykamy na przeszkody lub na inne dziwactwa które można wykreować.<br /><br />
 Gra podobna do Geometry Dash. Można podglądnąć trochę mechanik.<br /><br />
-
+```
 ## Mechanics
 
 Główna postać powinna być w kształcie koła i toczyć się w dół.<br /><br />
