@@ -7,7 +7,7 @@ File to create some concepts for new games or just for new projects.
 2. [Taern: Broken Cards](#Taern-Broken-Cards)
 
 ```diff
-@@ Try To Get Up
+@@ Try To Get Up @@
 ```
 
 ## Description
