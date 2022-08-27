@@ -10,33 +10,37 @@ File to create some concepts for new games or just for new projects.
 
 ## Description
 
-```dif
-Głowna postać leci w kierunku prawo/dół pod kątem około 45 stopni cały czas i nie można jej zatrzymać.<br /><br />
-Co jakiś czas napotykamy na przeszkody lub na inne dziwactwa które można wykreować.<br /><br />
-Gra podobna do Geometry Dash. Można podglądnąć trochę mechanik.<br /><br />
-```
+
+Głowna postać leci w kierunku prawo/dół pod kątem około 45 stopni cały czas i nie można jej zatrzymać.<br />
+Co jakiś czas napotykamy na przeszkody lub na inne dziwactwa które można wykreować.<br />
+Gra podobna do Geometry Dash. Można podglądnąć trochę mechanik.<br />
+
 ## Mechanics
 
-Główna postać powinna być w kształcie koła i toczyć się w dół.<br /><br />
-Pierwszy level niech zawiera tylko momenty w których trzeba coś przeskoczyć.<br /><br />
-Gra powinna zawierać przynajmniej na początek 2 poziomy.
+Główna postać powinna być w kształcie koła i toczyć się w dół.<br />
+Pierwszy level niech zawiera tylko momenty w których trzeba coś przeskoczyć.<br />
+Gra powinna zawierać przynajmniej na początek 2 poziomy.<br />
 W dalesz częście można dodawać nowe poziomy oraz ewentualnie nowe mechaniki.<br /><br />
 
-Genres: Runner, platformer
-Language: C#<br /><br />
+Genres: Runner, platformer<br />
+Language: C#<br />
 Engine: Unity2D
+
+<br />=========<br /><br />
 
 # Taern: Broken Cards
 
 ## Description
 
-Karcianka osadzona w świecie gry Taern / Broken Ranks.<br /><br />
-Postacie na kartach powinny być takie jak w Taernie (podobne).<br /><br />
+Karcianka osadzona w świecie gry Taern / Broken Ranks.<br />
+Postacie na kartach powinny być takie jak w Taernie (podobne).<br />
 
 ## Mechanics
 
-Such an empty space!
+Such an empty space!<br /><br />
 
-Genres: Card Game
-Language: C#<br /><br />
+Genres: Card Game<br />
+Language: C#<br />
 Engine: Unity2D
+
+<br />=========<br /><br />
