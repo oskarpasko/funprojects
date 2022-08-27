@@ -26,7 +26,7 @@ Genres: Runner, platformer<br />
 Language: C#<br />
 Engine: Unity2D
 
-<br />======<br /><br />
+<br /><br /><br />
 
 # Taern: Broken Cards
 
@@ -43,4 +43,4 @@ Genres: Card Game<br />
 Language: C#<br />
 Engine: Unity2D
 
-<br />=========<br /><br />
+<br /><br /><br />
