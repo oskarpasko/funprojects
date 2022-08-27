@@ -3,8 +3,8 @@
 File to create some concepts for new games or just for new projects.
 
 # Table of Concepts
-1.[Try To Get Up](try-to-get-up)
-2.[Taern: Broken Ranks](taern:-broken-ranks)
+1.[Try To Get Up](#Try-To-Get-Up)
+2.[Taern: Broken Ranks](#Taern:-Broken-Ranks)
 
 # Try To Get Up
 
