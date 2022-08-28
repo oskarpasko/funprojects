@@ -46,10 +46,10 @@ Plansza na która każdy gracz może dać Max 5 stronników
 ### Characters
 - Rycerz (ochrona / rozkaz) <br />
 - Druid (leczenie / leczenie grupowe) <br />
-- Mag Ognia <br />
+- Mag Ognia (meteor / ognista sfera) <br />
 - Barbarzyńca (AoE / furia) <br />
 - Łucznik (grad / trująca) <br />
-- VooDoo <br />
+- VooDoo (aura cienia / ukaz) <br />
 - Sheed (unik / kontrola oddechu) <br />
 
 
