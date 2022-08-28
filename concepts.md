@@ -45,14 +45,26 @@ Plansza, na którą każdy gracz może dać Max 5 stronników
 
 ### Characters
 - Rycerz
-  - ochrona
-  - rozkaz
-- Druid (leczenie / leczenie grupowe) <br />
-- Mag Ognia (meteor / ognista sfera) <br />
-- Barbarzyńca (AoE / furia) <br />
-- Łucznik (grad / trująca) <br />
-- VooDoo (aura cienia / ukaz) <br />
-- Sheed (unik / kontrola oddechu) <br />
+  - Ochrona
+  - Rozkaz
+- Druid 
+  - Leczenie
+  - Leczeie grupowe
+- Mag Ognia 
+  - Meteor
+  - Ognista sfera
+- Barbarzyńca 
+  - AoE
+  - Furia
+- Łucznik 
+  - Grad
+  - Trująca
+- VooDoo 
+  - Aura Ciebia
+  - Ukaz
+- Sheed 
+  - Unik
+  - Kontrola Oddechu
 
 
 Genres: Card Game<br />
