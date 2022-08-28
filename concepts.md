@@ -41,7 +41,7 @@ Postacie na kartach powinny być takie jak w Taernie (podobne).<br />
 
 ## Mechanics
 
-Plansza na która każdy gracz może dać Max 5 stronników
+Plansza, na którą każdy gracz może dać Max 5 stronników
 
 ### Characters
 - Rycerz (ochrona / rozkaz) <br />
