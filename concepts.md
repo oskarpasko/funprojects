@@ -41,14 +41,16 @@ Postacie na kartach powinny być takie jak w Taernie (podobne).<br />
 
 ## Mechanics
 
+Plansza na która każdy gracz może dać Max 5 stronników
+
 ### Characters
-- Rycerz (ability: blok tarczą)
-- Druid
-- Mag Ognia
-- Barbarzyńca
-- Łucznik
-- VooDoo
-- Sheed
+- Rycerz (ochrona / rozkaz) <br />
+- Druid (leczenie / leczenie grupowe) <br />
+- Mag Ognia <br />
+- Barbarzyńca (AoE / furia) <br />
+- Łucznik (grad / trująca) <br />
+- VooDoo <br />
+- Sheed (unik / kontrola oddechu) <br />
 
 
 Genres: Card Game<br />
