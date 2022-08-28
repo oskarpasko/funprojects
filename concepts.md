@@ -44,7 +44,9 @@ Postacie na kartach powinny być takie jak w Taernie (podobne).<br />
 Plansza, na którą każdy gracz może dać Max 5 stronników
 
 ### Characters
-- Rycerz (ochrona / rozkaz) <br />
+- Rycerz
+  - ochrona
+  - rozkaz
 - Druid (leczenie / leczenie grupowe) <br />
 - Mag Ognia (meteor / ognista sfera) <br />
 - Barbarzyńca (AoE / furia) <br />
