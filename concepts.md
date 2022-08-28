@@ -41,7 +41,15 @@ Postacie na kartach powinny być takie jak w Taernie (podobne).<br />
 
 ## Mechanics
 
-Such an empty space!<br /><br />
+### Characters
+- Rycerz (ability: blok tarczą)
+- Druid
+- Mag Ognia
+- Barbarzyńca
+- Łucznik
+- VooDoo
+- Sheed
+
 
 Genres: Card Game<br />
 Language: C#<br />
