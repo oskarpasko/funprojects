@@ -48,23 +48,23 @@ Plansza, na którą każdy gracz może dać Max 5 stronników
   - Ochrona (chroni 'stronnika' przed pierwszym uderzeniem)
   - Rozkaz (+1 do ataku stronnikom)
 - Druid 
-  - Leczenie (leczy siebie lub karte o 3)
-  - Leczeie grupowe (leczy wszystkich sojusznikow o 1)
+  - Leczenie (leczy siebie lub karte o 3hp)
+  - Leczeie grupowe (leczy wszystkich sojusznikow o 1hp)
 - Mag Ognia 
-  - Meteor
-  - Ognista sfera
+  - Meteor (Zadaje 2dmg obrazenia karcie oraz 1dmg kartom obok wybranej)
+  - Ognista tarcza (Zadaje obrazenia bohaterowi lub kartom które zaatakują Maga Ognia)
 - Barbarzyńca 
-  - AoE
-  - Furia
+  - AoE (zadaje WSZYSTKIM kartom 1dmg)
+  - Furia (daje karcie +2 do ataku na jedna ture)
 - Łucznik 
-  - Grad
-  - Trująca
+  - Grad (zadaje wszystkim wrogim kartom 1dmg)
+  - Trująca (zadaje 1dmg od razu i 1dmg co ture (mozna rzucic tylko na karty))
 - VooDoo 
-  - Aura Ciebia
-  - Ukaz
+  - Aura Ciebia (zmniejsza obrazenia przeciwnym kartom o 1)
+  - Ukaz ("umiejetnosc ktora powinna dzialac razem z klasowymi kartami")
 - Sheed 
-  - Unik
-  - Kontrola Oddechu
+  - Unik (Bohater jest niewrazliwy na pierwszy atak)
+  - Kontrola Oddechu (Zmniejsza koszt kart w ręce)
 
 
 Genres: Card Game<br />
