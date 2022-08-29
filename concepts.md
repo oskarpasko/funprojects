@@ -63,7 +63,7 @@ Jeśli będzie remis rzucamy dopóki ktoś nie wyrzuci więszkej ilości oczek.<
   - Trująca (zadaje 1dmg od razu i 1dmg co ture (mozna rzucic tylko na karty))
 - VooDoo 
   - Aura Ciebia (zmniejsza obrazenia przeciwnym kartom o 1)
-  - Ukaz ("umiejetnosc ktora powinna dzialac razem z klasowymi kartami")
+  - Ukaz (usuwa wybraną kartę w następnej turze)
 - Sheed 
   - Unik (Bohater jest niewrazliwy na pierwszy atak)
   - Kontrola Oddechu (Zmniejsza koszt kart w ręce)
