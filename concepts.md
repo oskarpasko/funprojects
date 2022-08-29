@@ -41,7 +41,9 @@ Postacie na kartach powinny być takie jak w Taernie (podobne).<br />
 
 ## Mechanics
 
-Plansza, na którą każdy gracz może dać Max 5 stronników
+Plansza, na którą każdy gracz może dać Max 5 stronników.<br />
+Gracze rzucają kostką na początku gry, kto wyrzuci wyższą liczbę oczek zaczyna.<br />
+Jeśli będzie remis rzucamy dopóki ktoś nie wyrzuci więszkej ilości oczek.<br />
 
 ### Characters
 - Rycerz
