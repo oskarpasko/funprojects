@@ -45,7 +45,7 @@ Plansza, na którą każdy gracz może dać Max 5 stronników
 
 ### Characters
 - Rycerz
-  - Ochrona (chroni 'stronnika' przed pierwszym uderzeniem)
+  - Ochrona (chroni sojuszniczą kartę przed pierwszym uderzeniem)
   - Rozkaz (+1 do ataku stronnikom)
 - Druid 
   - Leczenie (leczy siebie lub karte o 3hp)
