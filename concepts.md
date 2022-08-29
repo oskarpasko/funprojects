@@ -48,8 +48,8 @@ Plansza, na którą każdy gracz może dać Max 5 stronników
   - Ochrona (chroni 'stronnika' przed pierwszym uderzeniem)
   - Rozkaz (+1 do ataku stronnikom)
 - Druid 
-  - Leczenie
-  - Leczeie grupowe
+  - Leczenie (leczy siebie lub karte o 3)
+  - Leczeie grupowe (leczy wszystkich sojusznikow o 1)
 - Mag Ognia 
   - Meteor
   - Ognista sfera
