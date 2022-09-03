@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class Diamond : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] Color32 hasDiamondColor = new Color32(1, 1, 1, 1);
+    
+    bool hasDiamond = false;
+
+    SpriteRenderer spriteRenderer;
+
+    private void Start() {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("Zebrałeś Diament!");    
+
+            Debug.Log("Zebrałeś Diament!");    
+            hasDiamond = true;
+            spriteRenderer.color = hasDiamondColor;
     }
 }
