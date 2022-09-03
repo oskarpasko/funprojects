@@ -15,18 +15,17 @@ File to create some concepts for new games or just for new projects.
 ## Description
 
 
-Głowna postać leci w kierunku prawo/dół pod kątem około 45 stopni cały czas i nie można jej zatrzymać.<br />
-Co jakiś czas napotykamy na przeszkody lub na inne dziwactwa które można wykreować.<br />
-Gra podobna do Geometry Dash. Można podglądnąć trochę mechanik.<br />
+Platformówka, żeby poćwiczyć tworzenie gier w Unity2D.
 
 ## Mechanics
 
-Główna postać powinna być w kształcie koła i toczyć się w dół.<br />
-Pierwszy level niech zawiera tylko momenty w których trzeba coś przeskoczyć.<br />
-Gra powinna zawierać przynajmniej na początek 2 poziomy.<br />
-W dalesz częście można dodawać nowe poziomy oraz ewentualnie nowe mechaniki.<br /><br />
+Przechodzimy levele platformowe. Zbieramy diamenty jako punktu na każdym poziomie.<br />
+Co parę poziom będzie można znaleźć kartkę z dalszą fabułą.<br />
+"Wieża" powinna miec około 50 leveli.<br />
+W miarę tworzenia można dodawać nowe mechaniki, może jakiś przeciwników.<br />
 
-Genres: Runner, platformer<br />
+
+Genres: Platformer <br />
 Language: C#<br />
 Engine: Unity2D
 
