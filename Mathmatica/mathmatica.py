@@ -1,10 +1,11 @@
 from src.algorithms import *
 from src.errors import errors
 from src.menu import display_menu
+from src.settings import Colors
 
-print(' =================================== ')
-print('        Welcome in Mathmatica')
-print(' =================================== ')
+print(f'{Colors.BLUE} =================================== {Colors.END}')
+print(f'{Colors.BLUE}        Welcome in Mathmatica{Colors.END}')
+print(f'{Colors.BLUE} =================================== {Colors.END}')
 
 print('\n')
 
@@ -12,7 +13,7 @@ while(True):
 
     display_menu()
 
-    choice = input("Choose option: ")
+    choice = input(f"{Colors.YELLOW}Choose option: {Colors.END}")
 
     match(choice):
         case '1':
