@@ -19,8 +19,11 @@ while(True):
         case '1':
             exponentation()
         case '2':
-            errors()
+            N = int(input(f"{Colors.CYAN}Podaj n!: {Colors.END}"))
+            print(f"{Colors.LIGHT_GREEN}{factorial(N)}{Colors.END}")
         case '3':
+            errors()
+        case '4':
             exit()
         case _:
             print('Error 890!')
