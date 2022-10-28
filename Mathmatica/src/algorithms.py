@@ -14,3 +14,8 @@ def exponentation():
         for x in range (0, exponent):
             result *= base
         print(f"{Colors.LIGHT_GREEN}{base}^({-1*exponent}) = {1/result}{Colors.END}")
+
+def factorial(a):
+    if(a<2):
+        return 1
+    return a * factorial(a-1)
