@@ -19,3 +19,6 @@ def factorial(a):
     if(a<2):
         return 1
     return a * factorial(a-1)
+
+def newton_symbol(n, k):
+    return factorial(n)/(factorial(k)*factorial(n-k))
