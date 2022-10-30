@@ -28,8 +28,10 @@ while(True):
             if(K >= 0 and N >= K):
                 print(f"{Colors.LIGHT_GREEN}{N}! / {K}!({N} - {K})! = {newton_symbol(N, K)}{Colors.END}")
         case '4':
-            errors()
+            quadratic_function()
         case '5':
+            errors()
+        case '6':
             exit()
         case _:
             print('Error 890!')
