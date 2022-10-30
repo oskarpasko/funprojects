@@ -1,4 +1,5 @@
 from settings import Colors
+from math import sqrt
 
 def exponentation():
     base = int(input(f'{Colors.CYAN}Enter base: {Colors.END}')) 
