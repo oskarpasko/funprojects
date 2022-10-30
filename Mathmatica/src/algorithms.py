@@ -1,4 +1,4 @@
-from .settings import Colors
+from settings import Colors
 
 def exponentation():
     base = int(input(f'{Colors.CYAN}Enter base: {Colors.END}')) 
