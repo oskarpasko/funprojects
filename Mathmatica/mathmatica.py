@@ -22,9 +22,11 @@ while(True):
             N = int(input(f"{Colors.CYAN}Podaj n: {Colors.END}"))
             print(f"{Colors.LIGHT_GREEN}{N}! = {factorial(N)}{Colors.END}")
         case '3':
+            print(f"{Colors.CYAN}Podaj n oraz k, (0<=k<=n){Colors.END}")
             N = int(input(f"{Colors.CYAN}Podaj n: {Colors.END}"))
             K = int(input(f"{Colors.CYAN}Podaj k: {Colors.END}"))
-            print(f"{Colors.LIGHT_GREEN}{N}! / {K}!({N} - {K})! = {newton_symbol(N, K)}{Colors.END}")
+            if(K >= 0 and N >= K):
+                print(f"{Colors.LIGHT_GREEN}{N}! / {K}!({N} - {K})! = {newton_symbol(N, K)}{Colors.END}")
         case '4':
             errors()
         case '5':
