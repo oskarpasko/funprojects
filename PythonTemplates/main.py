@@ -1,0 +1,1 @@
+print("Some templates in Python. Rather for devs than users :)")
