@@ -6,6 +6,8 @@ def file_reader():
 
 def try_except(first, second):
     try:
-        return first / second
+        first / second
     except ZeroDivisionError:
         return "Nie dzielimy przez 0!"
+    else:
+        return first / second
