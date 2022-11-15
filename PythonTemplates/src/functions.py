@@ -7,14 +7,14 @@ def file_reader():
 # function with try except block
 def try_except(first, second):
 
-    # block where the error could be
-    try:
-        # example: 5/0
+    try: 
+        # check if error exist
+        first / second
+    except ZeroDivisionError: 
+        # definition which error we except
+        return "Nie dzielimy przez 0!" 
+    else: 
+        # what we do if everything is all right
         return first / second
-    # block with Error Division
-    except ZeroDivisionError:
-        return "Nie dzielimy przez 0!"
-    # else:
-    #   operations
     # finally:
     #   operations
