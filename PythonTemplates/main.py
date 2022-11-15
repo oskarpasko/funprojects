@@ -10,3 +10,5 @@ choice = input(f'{Colors.CYAN}Choose option: {Colors.END}')
 match(choice):
     case '1':
         file_reader()
+    case '2':
+        print(try_except(5, 1))
