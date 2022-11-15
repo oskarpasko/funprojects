@@ -3,3 +3,9 @@ def file_reader():
     with open(absolute_path) as file_object:
         contents = file_object.read()
     print(contents)
+
+def try_except(first, second):
+    try:
+        return first / second
+    except ZeroDivisionError:
+        return "Nie dzielimy przez 0!"
