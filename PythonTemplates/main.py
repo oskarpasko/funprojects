@@ -7,6 +7,8 @@ print(f"{Colors.YELLOW}Some templates in Python. Rather for devs than users :){C
 menu()
 choice = input(f'{Colors.CYAN}Choose option: {Colors.END}')
 
+
+# simple match case
 match(choice):
     case '1':
         file_reader()
