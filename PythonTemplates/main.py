@@ -14,3 +14,7 @@ match(choice):
         file_reader()
     case '2':
         print(try_except(5, 0))
+    case '3':
+        json_save_data()
+    case '4':
+        json_load_data()
