@@ -30,3 +30,8 @@ for x in range(0, points+1):
         if(round(((x+0.5)/points)*100, 2) >= 83 and round(((x+0.5)/points)*100, 2) < 87): print(f"{Colors.PURPLE}+4 = {x+0.5}pkt")
         if(round(((x+0.5)/points)*100, 2) >= 87 and round(((x+0.5)/points)*100, 2) < 90): print(f"{Colors.GREEN}-5 = {x+0.5}pkt")
         if(round(((x+0.5)/points)*100, 2) >= 90 and round(((x+0.5)/points)*100, 2) <= 100): print(f"{Colors.GREEN}5 = {x+0.5}pkt{Colors.END}")
+
+
+while(True):
+    choice = input("Wpisz 'q' zeby zamknąć program.")
+    if(choice == 'q'): exit()
