@@ -18,3 +18,5 @@ match(choice):
         json_save_data()
     case '4':
         json_load_data()
+    case '5':
+        csv_load_data()

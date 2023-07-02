@@ -1,0 +1,3 @@
+_id,departureAirport,arrivalAirport,aircraft,distance,intercontinental,delayed,status.description,status.lastUpdated
+64a07a11c05633acdad5961f,MUC,SFO,Airbus A380,12000,true,true,on-time,1 hour ago
+64a07a11c05633acdad59620,LHR,TXL,Airbus A320,950,false,true,on-time,1 hour ago
