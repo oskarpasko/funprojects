@@ -41,3 +41,13 @@ def json_load_data():
     with open(file_absoulte_path) as file:
         numbers = json.load(file)
     print(numbers)
+
+def csv_load_data():
+    # loading data from csv files
+    import csv
+
+    filename = "PythonTemplates\\files\\flights_flightData.csv"
+ 
+    with open(filename, 'r') as data:
+        for line in csv.DictReader(data):
+            print(line)
