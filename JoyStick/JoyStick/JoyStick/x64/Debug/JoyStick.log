@@ -1,2 +1,3 @@
 ﻿  App.cpp
+D:\funprojects\JoyStick\JoyStick\JoyStick\App.cpp(58,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   JoyStick.vcxproj -> D:\funprojects\JoyStick\JoyStick\x64\Debug\JoyStick.exe
