@@ -51,3 +51,6 @@ def csv_load_data():
     with open(filename, 'r') as data:
         for line in csv.DictReader(data):
             print(line)
+
+# lambda function
+add = lambda x, y: x + y

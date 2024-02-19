@@ -20,3 +20,6 @@ match(choice):
         json_load_data()
     case '5':
         csv_load_data()
+    case '6':
+        print(add(5, 7))
+        print((lambda x, y: x * y)(2,3))
