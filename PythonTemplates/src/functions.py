@@ -54,3 +54,26 @@ def csv_load_data():
 
 # lambda function
 add = lambda x, y: x + y
+
+# simple login
+
+def login():
+    users = [
+        (0, "Bob", "password"),
+        (1, "Alice", "passwordfsdf"),
+        (2, "Admin", "Admin"),
+    ]
+
+    username_mapping = {user[1]: user for user in users}
+
+    print(username_mapping)
+
+    username_input = input("Enter your username: ")
+    password_input = input("Enter your password: ")
+
+    _, username, password = username_mapping[username_input]
+
+    if password == password_input:
+        print("Logged in")
+    else:
+        print("Wrong password")

@@ -7,7 +7,7 @@ def menu():
     print(f"{Colors.BLUE}4. JSON load data{Colors.END}")
     print(f"{Colors.BLUE}5. CSV load data{Colors.END}")
     print(f"{Colors.BLUE}6. Lambda function{Colors.END}")
-
+    print(f"{Colors.BLUE}7. Logging{Colors.END}")
 
 if __name__ == '__main__':
     menu()

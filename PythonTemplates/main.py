@@ -23,3 +23,5 @@ match(choice):
     case '6':
         print(add(5, 7))
         print((lambda x, y: x * y)(2,3))
+    case '7':
+        login()
